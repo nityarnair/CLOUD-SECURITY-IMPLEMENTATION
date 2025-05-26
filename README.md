@@ -63,7 +63,6 @@ ________________________________________________________________________________
 
 ![Image](https://github.com/user-attachments/assets/16553317-d8fc-4dca-9b51-a63da78ebefb)
 
-![Image](https://github.com/user-attachments/assets/1df7ea19-2852-44cf-9e20-fe663782a00e)
 
 
 
