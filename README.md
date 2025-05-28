@@ -24,38 +24,6 @@ I uploaded a test file to the bucket to confirm that everything was working corr
 As an optional step, I enabled **AWS CloudTrail**, which tracks all actions taken in the AWS account. I created a new trail to log all management events and stored the logs in the same S3 bucket. This helps monitor account activity, detect unusual behavior, and maintain an audit trail.
 
 To complete the task, I documented each step with relevant screenshots and created a final report summarizing what I did. The report included the IAM setup, S3 configurations, encryption settings, and CloudTrail monitoring.
-____________________________________________________________________________________________________________________________________________________________________________________
-**REPORT**
-
-1. IAM Configuration
-
-Created user: intern-user
-
-Attached policies: AmazonS3FullAccess, IAMReadOnlyAccess
-
-Enabled MFA
-
-2. Secure Storage
-   
-Created bucket: internbucketnitya
-
-Enabled versioning
-
-Uploaded file: image.jpg
-
-Blocked public access: Yes
-
-3. Encryption
-   
-Used: SSE-S3 encryption at rest
-
-HTTPS used: Yes (default for S3)
-
-4. Monitoring
-   
-Created CloudTrail to log all events
-
-Logs stored in same S3 bucket
 
 _______________________________________________________________________________________________________________________________________________________________________________________
 
